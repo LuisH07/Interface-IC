@@ -1,2 +1,2 @@
-# Intrface IC
- Projeto de desenvolvimento da interface
+# Interface IC
+ Projeto de desenvolvimento da interfaca
