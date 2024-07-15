@@ -1,0 +1,57 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos da lista da barra de navegação */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+/* Estilos da logo */
+.navbar-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Estilos do icone home */
+.navbar-home {
+    margin-right: 20px;
+}
+.home-icon {
+    height: 40px;
+}
+/* Estilos do menu da barra de navegação */
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* Estilos para os itens do menu */
+.menu-item {
+    margin-left: 20px;
+}
+/* Estilos para os links do menu */
+.menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+}
+/* Estilos para os links do menu quando o mouse passa por cima */
+.menu-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+/* Estilos para o ícone de usuário */
+.navbar-user {
+    margin-left: 20px;
+}
+.user-icon {
+    height: 24px;
+}
