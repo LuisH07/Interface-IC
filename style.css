@@ -10,11 +10,17 @@ nav {
     background-color: rgb(40, 38, 38);
 }
 /* Estilos dos itens da navbar */
-nav li  {
+nav li  { 
     display: inline-block;
 }
 /* Estilos dos links dos itens da navbar */
-nav li a {
+nav li a { 
     color: white;
-    
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+/* Estilos ao passar o mouse */
+nav li a:hover {
+    background-color: #555;
 }
