@@ -13,6 +13,7 @@ nav {
 /* Estilos dos itens da navbar */
 nav li  { 
     display: inline-block;
+    position: relative;
 }
 /* Estilos dos links dos itens da navbar */
 nav li a { 
@@ -52,39 +53,31 @@ nav li a:hover {
     pointer-events: none;
 }
 /* Estilos para marcar o botão da pagina que voce está */
-body.home #home {
-    background-color: #080808;
-}
-body.cadastro1 #cadastro1 {
-    background-color: #080808;
-}
-body.cadastro2 #cadastro2 {
-    background-color: #080808;
-}
-body.pagamento1 #pagamento1 {
-    background-color: #080808;
-}
-body.pagamento2 #pagamento2 {
-    background-color: #080808;
-}
-body.top10 #top10 {
-    background-color: #080808;
-}
-body.oracao #oracao {
-    background-color: #080808;
-}
-body.config #config {
-    background-color: #080808;
-}
-body.ajuda1 #ajuda1 {
-    background-color: #080808;
-}
-body.ajuda2 #ajuda2 {
-    background-color: #080808;
-}
-body.user1 #user1 {
-    background-color: #080808;
-}
+body.home #home,
+body.cadastro1 #cadastro1,
+body.cadastro2 #cadastro2,
+body.pagamento1 #pagamento1,
+body.pagamento2 #pagamento2,
+body.top10 #top10,
+body.oracao #oracao,
+body.config #config,
+body.ajuda1 #ajuda1,
+body.ajuda2 #ajuda2,
+body.user1 #user1,
 body.user2 #user2 {
     background-color: #080808;
+}
+/* Estilos somente para os menus cadastros, pagamentos e user */
+.menu-cadastro, .menu-pagamento, .menu-user {
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+}
+/* Estilos somente para o menu ajuda */
+.menu-ajuda {
+    left: 0;
+    top: 100%;
+    width: 170%;
+    text-align: left;
 }
