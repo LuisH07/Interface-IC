@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Estilos da navbar */
+/* Estilos da navbar 
+cor da linha laranja da nav bar #fbac59 */
 nav {
     background-color: #222222;
 }
@@ -19,13 +20,12 @@ nav li a {
     color: #dedadc;
     text-decoration: none;
     padding: 15px;
-
 }
 /* Estilos ao passar o mouse */
 nav li a:hover {
     background-color: #080808;
 }
-/* Estiloa dos menus dropdown */
+/* Estilos dos menus dropdown */
 .dropdown-menu{
     position: absolute;
 }
@@ -34,5 +34,3 @@ nav li a:hover {
     display: block;
     background-color: #222222;
 }
-
-/* cor da linha laranja da nav bar #fbac59 */
