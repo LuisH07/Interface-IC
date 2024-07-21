@@ -69,7 +69,6 @@ nav li a:hover {
             width: 490px;
     }
 }
-/* 1366, 1440, 1600, 1920, 2560 */
 /* Estilos para marcar o botão da pagina que voce está */
 body.home #home,
 body.cadastro1 #cadastro1,
@@ -98,4 +97,17 @@ body.user2 #user2 {
     top: 100%;
     width: 170%;
     text-align: left;
+}
+/* Estilos do paragrafo das paginas da navbar */
+.pag-navbar {
+    background-color: #fbac59; /* Fundo de cor vibrante */
+    color: #222222; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 1.1em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Centralização do texto */
+    margin: 20px; /* Espaçamento externo */
+    border: 2px solid #222222; /* Borda */
 }
