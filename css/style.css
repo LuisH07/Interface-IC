@@ -5,10 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Estilos da navbar 
-cor da linha laranja da nav bar #fbac59 */
+/* Estilos da navbar */
 nav {
     background-color: #222222;
+    border-bottom: 5px #fbac59 solid;
 }
 /* Estilos dos itens da navbar */
 nav li  { 
@@ -28,9 +28,20 @@ nav li a:hover {
 /* Estilos dos menus dropdown */
 .dropdown-menu{
     position: absolute;
+    background-color: #222222;
+    display: none;
 }
 /* Estilos dos links dos menus dropdown */
 .dropdown-menu a {
     display: block;
-    background-color: #222222;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.help {
+    padding-left: 685px;
+}
+.user {
+    padding-right: 0px;
+    margin-right: 0px;
 }
