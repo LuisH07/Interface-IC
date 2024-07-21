@@ -64,7 +64,7 @@ nav li a:hover {
     }
 }
 /* Ajuste da largura do .space para telas menores que 1370px */
-@media (max-width: 1370px) {
+@media (max-width: 1529px) {
     .space {
             width: 70px;
     }
