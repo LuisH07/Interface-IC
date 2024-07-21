@@ -20,28 +20,42 @@ nav li a {
     color: #dedadc;
     text-decoration: none;
     padding: 15px;
+    transition: background-color 0.2s ease;
 }
-/* Estilos ao passar o mouse */
+/* Estilos ao passar o mouse nos links dos itens */
 nav li a:hover {
     background-color: #080808;
 }
 /* Estilos dos menus dropdown */
-.dropdown-menu{
+.dropdown-menu {
     position: absolute;
     background-color: #222222;
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 /* Estilos dos links dos menus dropdown */
 .dropdown-menu a {
     display: block;
+    transition: background-color 0.2s ease;
 }
+/* Estilos dos menus dropdown ao passar o mouse */
 .dropdown:hover .dropdown-menu {
     display: block;
+    opacity: 1;
+    visibility: visible;
 }
-.help {
-    padding-left: 685px;
+/* Estilos do espaço na navbar */
+.space {
+    width: 680px;
+    pointer-events: none;
 }
-.user {
-    padding-right: 0px;
-    margin-right: 0px;
+/* Estilos para quando estiver no botão home */
+body.home #home {
+    background-color: #080808;
+}
+/* Estilos para quando estiver no botão cadastro 1 */
+body.cadastro1 #cadastro1 {
+    background-color: #080808;
 }
