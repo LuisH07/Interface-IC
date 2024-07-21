@@ -54,13 +54,13 @@ nav li a:hover {
 /* Ajuste da largura do .space para telas maiores que 1540px */
 @media (min-width: 1541px) {
     .space {
-        width: 890px;
+        width: 900px;
     }
 }
 /* Ajuste da largura do .space para telas menores que 1540px e maiores que 1530px */
 @media (min-width: 1530px) and (max-width: 1540px) {
     .space {
-        width: 700px;
+        width: 692px;
     }
 }
 /* Ajuste da largura do .space para telas menores que 1370px */
