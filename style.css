@@ -16,7 +16,7 @@ nav li  {
 /* Estilos dos links dos itens da navbar */
 nav li a { 
     display: inline-block;
-    color: white;
+    color: #dedadc;
     text-decoration: none;
     padding: 15px;
 
