@@ -60,13 +60,13 @@ nav li a:hover {
 /* Ajuste da largura do .space para telas menores que 1540px e maiores que 1530px */
 @media (min-width: 1530px) and (max-width: 1540px) {
     .space {
-        width: 690px;
+        width: 700px;
     }
 }
 /* Ajuste da largura do .space para telas menores que 1370px */
 @media (max-width: 1529px) {
     .space {
-            width: 490px;
+            width: 500px;
     }
 }
 /* Estilos para marcar o botão da pagina que voce está */
