@@ -100,14 +100,25 @@ body.user2 #user2 {
 }
 /* Estilos do paragrafo das paginas da navbar */
 .pag-navbar {
-    background-color: #fbac59; /* Fundo de cor vibrante */
-    color: #222222; /* Cor do texto */
-    padding: 15px; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-    font-size: 1.1em; /* Tamanho da fonte */
-    font-weight: bold; /* Negrito */
-    text-align: center; /* Centralização do texto */
-    margin: 20px; /* Espaçamento externo */
-    border: 2px solid #222222; /* Borda */
+    background-color: #fbac59;
+    color: #222222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #222222;
+}
+/* Estilos para o nome da página da navbar */
+.pag-nome {
+    color: #fbac59;
+    background-color: #222222;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 1.0em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
 }
