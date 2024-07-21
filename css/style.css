@@ -51,11 +51,40 @@ nav li a:hover {
     width: 680px;
     pointer-events: none;
 }
-/* Estilos para quando estiver no botão home */
+/* Estilos para marcar o botão da pagina que voce está */
 body.home #home {
     background-color: #080808;
 }
-/* Estilos para quando estiver no botão cadastro 1 */
 body.cadastro1 #cadastro1 {
+    background-color: #080808;
+}
+body.cadastro2 #cadastro2 {
+    background-color: #080808;
+}
+body.pagamento1 #pagamento1 {
+    background-color: #080808;
+}
+body.pagamento2 #pagamento2 {
+    background-color: #080808;
+}
+body.top10 #top10 {
+    background-color: #080808;
+}
+body.oracao #oracao {
+    background-color: #080808;
+}
+body.config #config {
+    background-color: #080808;
+}
+body.ajuda1 #ajuda1 {
+    background-color: #080808;
+}
+body.ajuda2 #ajuda2 {
+    background-color: #080808;
+}
+body.user1 #user1 {
+    background-color: #080808;
+}
+body.user2 #user2 {
     background-color: #080808;
 }
