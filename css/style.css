@@ -49,9 +49,27 @@ nav li a:hover {
 }
 /* Estilos do espaço na navbar */
 .space {
-    width: 670px;
     pointer-events: none;
 }
+/* Ajuste da largura do .space para telas maiores que 1540px */
+@media (min-width: 1541px) {
+    .space {
+        width: 790px;
+    }
+}
+/* Ajuste da largura do .space para telas menores que 1540px e maiores que 1530px */
+@media (min-width: 1530px) and (max-width: 1540px) {
+    .space {
+        width: 690px;
+    }
+}
+/* Ajuste da largura do .space para telas menores que 1370px */
+@media (max-width: 1370px) {
+    .space {
+            width: 500px;
+    }
+}
+/* 1366, 1440, 1600, 1920, 2560 */
 /* Estilos para marcar o botão da pagina que voce está */
 body.home #home,
 body.cadastro1 #cadastro1,
