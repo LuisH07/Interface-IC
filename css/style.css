@@ -1,12 +1,12 @@
 /* Estilos universais */
 * {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /* Estilos da navbar */
 nav {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
     background-color: #222222;
     border-bottom: 5px #fbac59 solid;
 }
@@ -46,28 +46,6 @@ nav li a:hover {
     display: block;
     opacity: 1;
     visibility: visible;
-}
-/* Estilos do espaço na navbar */
-.space {
-    pointer-events: none;
-}
-/* Ajuste da largura do .space para telas maiores que 1540px */
-@media (min-width: 1541px) {
-    .space {
-        width: 900px;
-    }
-}
-/* Ajuste da largura do .space para telas menores que 1540px e maiores que 1530px */
-@media (min-width: 1530px) and (max-width: 1540px) {
-    .space {
-        width: 692px;
-    }
-}
-/* Ajuste da largura do .space para telas menores que 1370px */
-@media (max-width: 1529px) {
-    .space {
-            width: 500px;
-    }
 }
 /* Estilos para marcar o botão da pagina que voce está */
 body.home #home,
@@ -121,4 +99,8 @@ body.user2 #user2 {
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.5px;
+}
+/* Estilos para o conteudo principal */
+main {
+    font-family: Arial, Helvetica, sans-serif;
 }
