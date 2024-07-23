@@ -106,17 +106,25 @@ body.user2 #user2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.5px;
 }
-main {
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* botões */
-section {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
-}
 
+/* Botões - João Vitor */
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+section ul {
+    list-style-type: none;
+    display: flex;
+}
+section li {
+    position: relative;
+}
+section li a {
+    text-decoration: none;
+}
 .botao-container {
     display: flex;
     justify-content: space-between;
@@ -125,7 +133,6 @@ section {
     background-color: white;
     border-bottom: 2px solid #e9ecef;
 }
-
 .botao {
     flex: 1;
     margin: 0 5px;
@@ -136,41 +143,40 @@ section {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-.botao.celulas {
+.celulas {
     background-color: #dc3545; /* Vermelho */
     border-radius: 3px 0 0 3px;
 }
-
-.botao.ped-oracao {
+.ped-oracao {
     background-color: #fd7e14; /* Laranja */
     margin-left: -5px;
 }
-
-.botao.meus-dados {
+.meus-dados {
     background-color: #007bff; /* Azul */
     margin-left: -5px;
     border-radius: 0 3px 3px 0;
 }
-
-.botao.usuarios {
+.usuarios {
     background-color: #28a745; /* Verde */
     border-radius: 3px 0 0 3px;
     margin-right: -5px;
 
 }
-
-.botao.config {
+.config {
     background-color: #17a2b8; /* Ciano */
 }
-
-.botao.agenda {
+.agenda {
     background-color: #6c757d; /* Cinza */
     margin-left: -5px;
     color: black;
     border-radius: 0 3px 3px 0;
 }
-
 .botao:hover {
     opacity: 0.9;
 }
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
