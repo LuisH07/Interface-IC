@@ -1,27 +1,33 @@
-/* Estilos universais */
+/* Reset CSS básico */
 * {
     margin: 0;
     padding: 0;
 }
 /* Estilos da navbar */
 nav {
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #222222;
     border-bottom: 5px #fbac59 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
 }
 /* Estilos dos itens da navbar */
-nav li  { 
-    display: inline-block;
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
     position: relative;
 }
 /* Estilos dos links dos itens da navbar */
-nav li a { 
-    display: inline-block;
+nav li a {
     color: #dedadc;
     text-decoration: none;
     padding: 15px;
     transition: background-color 0.2s ease;
+    display: block;
 }
 /* Estilos ao passar o mouse nos links dos itens */
 nav li a:hover {
@@ -40,6 +46,10 @@ nav li a:hover {
 .dropdown-menu a {
     display: block;
     transition: background-color 0.2s ease;
+    padding: 15px;
+    padding-top: 15px 0px;
+    color: #dedadc;
+    text-align: center;
 }
 /* Estilos dos menus dropdown ao passar o mouse */
 .dropdown:hover .dropdown-menu {
@@ -47,7 +57,7 @@ nav li a:hover {
     opacity: 1;
     visibility: visible;
 }
-/* Estilos para marcar o botão da pagina que voce está */
+/* Estilos para marcar o botão da página que você está */
 body.home #home,
 body.cadastro1 #cadastro1,
 body.cadastro2 #cadastro2,
@@ -64,19 +74,15 @@ body.user2 #user2 {
 }
 /* Estilos somente para os menus cadastros, pagamentos e user */
 .menu-cadastro, .menu-pagamento, .menu-user {
-    left: 0;
-    top: 100%;
     width: 100%;
     text-align: center;
 }
 /* Estilos somente para o menu ajuda */
 .menu-ajuda {
-    left: 0;
-    top: 100%;
     width: 170%;
-    text-align: left;
+    text-align: center;
 }
-/* Estilos do paragrafo das paginas da navbar */
+/* Estilos do parágrafo das páginas da navbar */
 .pag-navbar {
     background-color: #fbac59;
     color: #222222;
@@ -95,12 +101,11 @@ body.user2 #user2 {
     background-color: #222222;
     padding: 3px 8px;
     border-radius: 5px;
-    font-size: 1.0em;
+    font-size: 1em;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.5px;
 }
-/* Estilos para o conteudo principal */
 main {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
