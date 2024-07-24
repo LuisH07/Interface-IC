@@ -106,14 +106,28 @@ body.user2 #user2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.5px;
 }
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ícone canto superior */
+.ico1{
+    display: inline;
+    padding: 3px;
+    width: 30px;
+    position: relative;
+    
+}
+
+
+/* botões */
 
 /* Botões - João Vitor */
 section {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    text-align: center;
 }
 section ul {
     list-style-type: none;
@@ -129,47 +143,55 @@ section li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 90px;
     background-color: white;
     border-bottom: 2px solid #e9ecef;
 }
 .botao {
     flex: 1;
     margin: 0 5px;
-    padding: 15px 20px;
-    border: none;
+    
+    border: no;
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 .celulas {
     background-color: #dc3545; /* Vermelho */
     border-radius: 3px 0 0 3px;
+    padding: 15px 60px;
 }
 .ped-oracao {
     background-color: #fd7e14; /* Laranja */
     margin-left: -5px;
+    padding: 15px 60px;
 }
 .meus-dados {
     background-color: #007bff; /* Azul */
     margin-left: -5px;
     border-radius: 0 3px 3px 0;
+    padding: 15px 60px;
 }
 .usuarios {
     background-color: #28a745; /* Verde */
     border-radius: 3px 0 0 3px;
     margin-right: -5px;
+    padding: 15px 60px;
 
 }
 .config {
     background-color: #17a2b8; /* Ciano */
+    padding: 15px 60px;
 }
 .agenda {
-    background-color: #6c757d; /* Cinza */
+    background-color: #ffffff; /* Cinza */
     margin-left: -5px;
+    border: 1px solid rgb(171, 171, 169);
     color: black;
     border-radius: 0 3px 3px 0;
+    padding: 14px 60px;
+    
 }
 .botao:hover {
     opacity: 0.9;
@@ -178,5 +200,3 @@ section li a {
 main {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
