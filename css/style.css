@@ -108,88 +108,107 @@ body.user2 #user2 {
 }
 
 /* Botões Joao vitor */
-/* ícone canto superior */
-.ico1{
-    display: inline;
-    padding: 3px;
-    width: 30px;
-    position: relative;
-    
-}
 section {
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
-section ul {
-    list-style-type: none;
+.header {
+    background-color: #f6f6f6;
+    border-bottom: solid 2px #c7c7c7;
+}
+.header ul {
     display: flex;
 }
-section li {
-    position: relative;
+.icon-logo {
+    scale: 0.7;
 }
-section li a {
-    text-decoration: none;
+.minha-igreja {
+    padding: 18px 5px;
 }
 .botao-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 90px;
     background-color: white;
-    border-bottom: 2px solid #e9ecef;
+    justify-content: space-between;
+}
+.botoes {
+    padding: 12px 10px;
+    padding-bottom: 20px;
+    display: flex;
+    list-style-type: none;
 }
 .botao {
-    flex: 1;
-    margin: 0 5px;
-    
-    border: no;
-    color: white;
-    font-size: 19px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    display: flex;
 }
-.celulas {
-    background-color: #dc3545; /* Vermelho */
-    border-radius: 3px 0 0 3px;
-    padding: 15px 60px;
+.botao a {
+    display: flex;
+    flex-direction: column;
 }
-.ped-oracao {
-    background-color: #fd7e14; /* Laranja */
-    margin-left: -5px;
-    padding: 15px 60px;
+.botao a span {
+    padding-top: 5px;
 }
-.meus-dados {
-    background-color: #007bff; /* Azul */
-    margin-left: -5px;
-    border-radius: 0 3px 3px 0;
-    padding: 15px 60px;
+.botao a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 68px;
+    width: 106px;
 }
-.usuarios {
-    background-color: #28a745; /* Verde */
-    border-radius: 3px 0 0 3px;
-    margin-right: -5px;
-    padding: 15px 60px;
-
+.botao-celulas {
+    background-color: #d9544f;
+    border: solid 2px #CB1712;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-.config {
-    background-color: #17a2b8; /* Ciano */
-    padding: 15px 60px;
+.botao-celulas a:hover {
+    background-color: #c03a35;
 }
-.agenda {
-    background-color: #ffffff; /* Cinza */
-    margin-left: -5px;
-    border: 1px solid rgb(171, 171, 169);
+.botao-oracao {
+    background-color: #f0ad4e;
+    border: solid 2px #EA8F0D;
+}
+.botao-oracao a:hover {
+    background-color: #e58d24;
+}
+.botao-meus-dados {
+    background-color: #337ab7;
+    border: solid 2px #004D92;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.botao-meus-dados a:hover {
+    background-color: #236799;
+}
+.botao-usuarios {
+    background-color: #5cb85c;
+    border: solid 2px #279D27;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.botao-usuarios a:hover {
+    background-color: #4a9c4a;
+}
+.botao-config {
+    background-color: #5bc0de;
+    border: solid 2px #1FA9D3;
+}
+.botao-config a:hover {
+    background-color: #3999b2;
+}
+.botao-agenda {
+    background-color: #ffffff;
     color: black;
-    border-radius: 0 3px 3px 0;
-    padding: 14px 60px;
-    
+    border: solid 2px #C8C8C8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-.botao:hover {
-    opacity: 0.9;
+.botao-agenda a {
+    color: black
 }
+.botao-agenda a:hover {
+    background-color: #e0e0e0;
+}
+
+
+
 
 /* Main content - Augusto */
 main {
