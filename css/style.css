@@ -72,6 +72,9 @@ body.user1 #user1,
 body.user2 #user2 {
     background-color: #080808;
 }
+body.botoespag #home {
+    background-color: #222222;
+}
 /* Estilos somente para os menus cadastros, pagamentos e user */
 .menu-cadastro, .menu-pagamento, .menu-user {
     width: 100%;
@@ -258,6 +261,18 @@ main ul li {
 .borda-membros {
     border: solid 2px #e7e7e7;
     padding: 16px;
+    margin-top: -20px;
+}
+.borda-superior1 {
+    margin-top: 5px;
+}
+.numero {
+    background-color: #747878;
+    color: white;
+    border: #747878 solid;
+    border-radius: 42%;
+    border-width: 5px 10px;
+    margin-top: -5px;
 }
 .doacoes {
     background-color: #ffffff;
@@ -308,6 +323,10 @@ main ul li {
 .borda-reunioes {
     border: solid 2px #e7e7e7;
     padding: 16px;
+    margin-top: -20px;
+}
+.borda-superior2 {
+    margin-top: 0cqmin
 }
 .cadastros {
     background-color: #ffffff;
