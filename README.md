@@ -11,7 +11,7 @@
 8. Manutenção e Atualizações
 
 ## 1. Introdução
-O site **Interface-IC** foi desenvolvido para replicar a tela abaixo. Esta documentação fornece detalhes sobre a estrutura do projeto, as tecnologias utilizadas e orientações para manutenção e atualização. <br>
+O site **Interface-IC**, https://luish07.github.io/Interface-IC/, foi desenvolvido para replicar a tela abaixo. Esta documentação fornece detalhes sobre a estrutura do projeto, as tecnologias utilizadas e orientações para manutenção e atualização. <br>
 <br> ![InterfaceOF-IC](https://github.com/user-attachments/assets/fc620a66-f068-4139-9915-d1e98bf40a90)
 
 ## 2. Configuração do Ambiente
