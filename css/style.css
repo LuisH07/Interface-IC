@@ -112,8 +112,6 @@ body.botoespag #home {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.5px;
 }
-
-/* Botões Joao vitor */
 section {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -223,7 +221,6 @@ section {
 .botao-agenda a:hover {
     background-color: #e0e0e0;
 }
-/* Main content - Augusto */
 main {
     font-family: Arial, Helvetica, sans-serif;
 }
