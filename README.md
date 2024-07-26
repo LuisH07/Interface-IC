@@ -19,10 +19,11 @@ O site **Interface-IC** foi desenvolvido para replicar a tela abaixo. Esta docum
 * Controle de Versão: Git e Gituhub Desktop
 
 **Passos para Configuração**
-Clone o repositório: https://github.com/LuisH07/Interface-IC
+Clone o repositório: https://github.com/LuisH07/Interface-IC <br>
 Abra os arquivos HTML e CSS no editor de texto para edição ou visualização.
 
 ## 3. Estrutura do Projeto
+```
 Interface-IC/                       #pasta do projeto
 ├── css/                            #pasta do css do site
 │   └── style.css                   #arquivo css do site
@@ -64,6 +65,7 @@ Interface-IC/                       #pasta do projeto
 ├── README.md                       #arquivo da documentação do site
 │
 └── index.html                      #arquivo html principal
+```
 
 ## 4. Tecnologias utilizadas
 Front-end: HTML e css
@@ -73,10 +75,10 @@ Front-end: HTML e css
 * Cores: Referências da tela original
 
 ## 6. Componentes Principais
-**Cabeçalho**
+**Cabeçalho**  <br>
 O cabeçalho contém a barra de navegação principal, o logotipo, nome e botoês principais, projetado com HTML e estilizado com CSS.
 
-Conteúdo Principal
+**Conteúdo Principal** <br>
 Inclui informações importantes de cada página.
 
 ## 7. Responsividade
