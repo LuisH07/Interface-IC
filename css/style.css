@@ -97,8 +97,9 @@ body.botoespag #home {
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     border: 2px solid #222222;
+    width: 1485px;
 }
 /* Estilos para o nome da página da navbar */
 .pag-nome {
@@ -121,7 +122,6 @@ section {
     border-bottom: solid 2px #c7c7c7;
     margin-top: -17px;
     width: 1519px;
-    position: relative;
 }
 .header ul {
     display: flex;
@@ -142,6 +142,15 @@ section {
     padding-bottom: 20px;
     display: flex;
     list-style-type: none;
+}
+.botoespag section {
+    padding-top: 16px;
+}
+.botoespag nav {
+    width: 1526px;
+}
+.botoespag .header {
+    width: 1536px;
 }
 .botao {
     display: flex;
