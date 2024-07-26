@@ -19,7 +19,7 @@ O site **Interface-IC**, https://luish07.github.io/Interface-IC/, foi desenvolvi
 * Editor de Código: Visual Studio Code
 * Controle de Versão: Git e Gituhub Desktop
 
-**Passos para Configuração**
+**Passos para Configuração** <br>
 Clone o repositório: https://github.com/LuisH07/Interface-IC <br>
 Abra os arquivos HTML e CSS no editor de texto para edição ou visualização.
 
@@ -86,5 +86,7 @@ Inclui informações importantes de cada página.
 O site "Interface-IC" é compatível com **monitores 1920px e menores**, também para aparelhos móveis. Mostra uma única versão do site em todos os dispositivos.
 
 ## 8. Manutenção e Atualizações
-**Correções de Bugs**
+**Correções de Bugs** <br>
 Registre os bugs na seção de Issues do GitHub.
+
+Projeto desenvolvido pelos alunos: Luís Henrique Domingos, Augusto Jorge e João Vitor Moura, 1° período de Ciência da Computação, Turma A
