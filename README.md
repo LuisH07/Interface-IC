@@ -83,7 +83,7 @@ O cabeçalho contém a barra de navegação principal, o logotipo, nome e botoê
 Inclui informações importantes de cada página.
 
 ## 7. Responsividade
-O site "Interface-IC" é compatível com **monitores 1920px e menores**, também para aparelhos móveis. Mostra uma única versão do site em todos os dispositivos.
+O site "Interface-IC" é otimizado para **monitores 1920px e menores**, também para aparelhos móveis. Mostra uma única versão do site em todos os dispositivos.
 
 ## 8. Manutenção e Atualizações
 **Correções de Bugs** <br>
